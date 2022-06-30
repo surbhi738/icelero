@@ -1,0 +1,19 @@
+{
+  "name": "sls-notes-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "debug": "SET SLS_DEBUG=* && node --inspect %USERPROFILE%\\AppData\\Roaming\\npm\\node_modules\\serverless\\bin\\serverless offline -s dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.980.0",
+    "moment": "^2.29.1",
+    "serverless-offline": "^8.0.0",
+    "underscore": "^1.13.1",
+    "uuid": "^3.3.2"
+  }
+}
